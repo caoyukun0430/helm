@@ -1,0 +1,15 @@
+runoob.
+google.
+taobao.
+facebook.
+zhihu-
+weibo-
+# This is a test
+properties:
+  - image-registry: armdocker.rnd.ericsson.se
+  - image-dev-repopath: proj-adp-ref-app-dev
+  - image-ci-repopath: proj-adp-ref-app-ci-internal
+  - image-full-name: ${image-registry}/${common.image-drop-repopath}/${common.docker-image-name}
+  - image-base-os-version: 12
+  - image-base-os-version: 12
+image-base-os-version: 12
